@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff8e4;
+  font-family: "Montserrat", sans-serif;
+  margin: 100px;
+}
+
+.header {
+  background: #ef9797;
+  border: 2px solid #1b2025;
+  border-radius: 10px;
+  color: #614c4c;
+  display: block;
+  margin: 20px 24px;
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main {
+  margin: auto;
+}
+
+section {
+  align-content: center;
+  border: 3px solid #000000;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: #1b2025;
+}
+
+.apps {
+  align-content: center;
+  box-shadow: 11px 11px 0 0 #545454;
+  display: inline-block;
+  width: 30%;
+  margin: 23px;
+}
+
+.description {
+  font-size: 15px;
+}
+.weather {
+  background: #e2cb86;
+}
+
+.weather :hover {
+  background: #ac9a65;
+}
+
+.budget {
+  background: #6bff5d;
+}
+
+.budget :hover {
+  background: #74bd6d;
+}
+
+.movie {
+  background: #93bbdd;
+}
+
+.movie :hover {
+  background: #5599d4;
+}

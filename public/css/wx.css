@@ -1,0 +1,185 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: "Montserrat";
+  font-size: 16px;
+  margin: 0px;
+}
+
+.main-header {
+  width: 100%;
+  background: #c792ae;
+  padding: 18px 16px;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  color: #ffffff;
+  background: #154121;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 170px);
+  vertical-align: middle;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-nav__item a {
+  color: #3e0554;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
+  border-bottom: white solid 2px;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background-color: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: #ff1b68;
+  background-color: white;
+  border: none;
+}
+
+.banner {
+  padding: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 3px solid transparent;
+  border-color: #4fbdb1;
+  text-align: center;
+  color: #cccccc;
+  background-color: #1d2829;
+}
+
+.btn-standard {
+  background-color: #c17f39;
+  border-color: #c17f39;
+  border-radius: 0px;
+  box-shadow: 1px 6px 25px #3d393973;
+  color: #330c0c;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+.btn-custom {
+  height: 3.2rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 15rem;
+}
+
+.btn-landing {
+  height: 5rem;
+  width: 15rem;
+}
+
+.btn-custom:hover {
+  background: #fff;
+  border: 1px solid #330c0c;
+}
+
+.landing-row {
+  margin-left: 0px;
+}
+.title {
+  text-transform: capitalize;
+}
+
+.form-control-custom {
+  color: #30353a;
+  background-color: #d5dedd;
+  border: 1px solid #225d98;
+  border-radius: 0px;
+}
+
+.form-control-custom:hover {
+  border: 1px solid #1c2631;
+}
+
+.form-control-custom:focus {
+  background-color: #d5dedd;
+}
+
+#top {
+  background-color: #660b0be3;
+  color: white;
+  border-color: #300101e3;
+  border-bottom-width: 5px;
+}
+
+.results {
+  font-size: 20px;
+}
+
+.results-success {
+  color: #155724;
+  background-color: #edebd4;
+  border: 1px solid transparent;
+  border-color: #c3e6cb;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.results-error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid transparent;
+  border-color: #6d2930;
+  padding: 0.75rem 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.station-text {
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: paleturquoise;
+  }
+}
+
+.btn-icons {
+  padding-right: 10px;
+  vertical-align: bottom;
+}
