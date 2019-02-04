@@ -25,6 +25,10 @@ app.get("/wx", (req, res) => {
   res.render("wx", { cityName: null, weather: null, error: null });
 });
 
+app.get("/budget", (req, res) => {
+  res.render("budget");
+});
+
 app.get("/regular", (req, res) => {
   res.render("regular");
 });

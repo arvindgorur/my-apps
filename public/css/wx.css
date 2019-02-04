@@ -1,85 +1,5 @@
-@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css");
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+/* @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"); */
 @import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background: #ffffff;
-  color: #000000;
-  font-family: "Montserrat";
-  font-size: 16px;
-  margin: 0px;
-}
-
-.main-header {
-  width: 100%;
-  background: #c792ae;
-  padding: 18px 16px;
-}
-
-.main-header > div {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.main-header__brand {
-  color: #ffffff;
-  background: #154121;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 8px 10px;
-  border-radius: 10px;
-}
-
-.main-nav {
-  display: inline-block;
-  text-align: right;
-  width: calc(100% - 170px);
-  vertical-align: middle;
-}
-
-.main-nav__items {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.main-nav__item {
-  display: inline-block;
-  margin: 0 16px;
-}
-
-.main-nav__item a {
-  color: #3e0554;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 3px;
-}
-
-.main-nav__item a:hover,
-.main-nav__item a:active {
-  color: white;
-  border-bottom: white solid 2px;
-}
-
-.main-nav__item--cta a {
-  color: white;
-  background-color: #ff1b68;
-  padding: 8px 16px;
-  border-radius: 8px;
-}
-
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
-  color: #ff1b68;
-  background-color: white;
-  border: none;
-}
 
 .banner {
   padding: 4rem;
@@ -120,9 +40,6 @@ body {
 
 .landing-row {
   margin-left: 0px;
-}
-.title {
-  text-transform: capitalize;
 }
 
 .form-control-custom {

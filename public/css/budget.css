@@ -1,0 +1,24 @@
+.item {
+  background-color: #c4f98c;
+  border-left: 4px solid #077944;
+  margin: 5px 24px;
+  padding: 13px;
+  /* height: 200px; */
+  /* width: 80%; */
+}
+
+.item:hover {
+  box-shadow: 2px 2px 4px 0 #545454;
+  visibility: visible;
+}
+
+.edit-icon {
+  color: #65120db0;
+  font-size: 1.1rem;
+  padding-right: 10px;
+  /* visibility: hidden; */
+}
+
+.edit-icon:hover {
+  cursor: pointer;
+}
